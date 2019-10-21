@@ -1,8 +1,7 @@
 <div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Home component</h5>
-    <p class="card-text">Interceptor will add header to HTTP call</p>
-    <button class="btn btn-primary" (click)="doHttpCall()">Do Http Call</button>
+    <p class="card-text"><ng-container>QueryParams: {{params | json}}</ng-container></p>
   </div>
 </div>
-<ng-container>User data: {{data | json}}</ng-container>
+

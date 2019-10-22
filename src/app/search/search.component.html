@@ -1,0 +1,9 @@
+<header>
+  <h1>{{title}}</h1>
+</header>
+<div class="search_input">
+  <input placeholder="Search..." #search type="text">
+</div>
+<div class="content_wrapper">
+  <p [innerHTML]="text$ | async"></p>
+</div>

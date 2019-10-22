@@ -1,0 +1,30 @@
+header {
+  margin-left: 20px;
+}
+.content_wrapper {
+  position: relative;
+  font-size: 20px;
+  margin: 20px;
+  width: 70%;
+  overflow: auto;
+  border: 1px solid silver;
+  padding: 20px;
+}
+
+.search_input {
+  width: 70%;
+  margin: 20px;
+  height: 50px;
+  line-height: 50px;
+
+  input {
+    font-size: 20px;
+    width: 70%;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+}
+
+::ng-deep .highlight {
+  background-color: yellow;
+}

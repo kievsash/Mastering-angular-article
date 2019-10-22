@@ -10,28 +10,17 @@ import {filter, take, tap} from 'rxjs/operators';
 export class AppComponent implements OnInit {
   title = 'Mastering-angular';
 
-  constructor(private route: Router) {
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
-    // this.route.events.pipe(
-    //   tap(() => console.log('tap')),
-    //   filter((event) => event instanceof NavigationEnd
-    //     && event.urlAfterRedirects === '/home'
-    //     && event.url.search(/\?/) > -1 // look for '?'
-    //   ),
-    //   take(1) // run handler once
-    // ).subscribe((event: NavigationEnd) => {
-    //   console.log('Test')
-    //   // extract queryParams as value: pair object.
-    //   const queryParams = event.url.split('?')[1]
-    //     .split('&')
-    //     .reduce((acc, item) => ({...acc, [item.split('=')[0]]: item.split('=')[1]}), {});
-    //
-    //   this.route.navigate([], {
-    //     queryParams, // reload current route and add queryParams
-    //     queryParamsHandling: 'merge'
-    //   });
-    // });
+
+  }
+
+  goToRandomNumberPage(event) {
+    event.preventDefault();
+
+    this.router.navigateByUrl('/', {skipLocationChange: true})
+      .then(() => this.router.navigate(['/sameRoute']));
   }
 }

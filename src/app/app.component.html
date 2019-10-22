@@ -4,7 +4,9 @@
       <a [routerLink]="['/feature']" >Feature</a>
       <a [routerLink]="['/search']" >Search</a>
       <a [routerLink]="['/httpOnInit']" >HttpOnInit</a>
-      <a [routerLink]="['/sameRoute']" >SameRouteReload</a>
+<!--      <a [routerLink]="['/sameRoute']" >SameRouteReload</a>-->
+      <a class="route_link" (click)="goToRandomNumberPage($event)" >SameRouteReload</a>
+
   </div>
 </nav>
 <router-outlet></router-outlet>

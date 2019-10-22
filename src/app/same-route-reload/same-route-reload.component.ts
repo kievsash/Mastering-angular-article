@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./same-route-reload.component.scss']
 })
 export class SameRouteReloadComponent implements OnInit {
-
+  randomNumber;
   constructor() { }
 
   ngOnInit() {
     console.log('ngOnInit is started!');
+    this.randomNumber = Math.random() * 100;
   }
 
 }

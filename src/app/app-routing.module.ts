@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import {SearchComponent} from './search/search.component';
 import {HttpCallComponent} from './http-call/http-call.component';
+import {SameRouteReloadComponent} from './same-route-reload/same-route-reload.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'search', component: SearchComponent},
   {path: 'httpOnInit', component: HttpCallComponent},
+  {path: 'sameRoute', component: SameRouteReloadComponent},
   { path: 'feature',
     loadChildren: './some-feature/some-feature.module#SomeFeatureModule'}
 ];

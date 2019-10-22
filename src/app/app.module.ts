@@ -9,13 +9,15 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { HttpCallComponent } from './http-call/http-call.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { SameRouteReloadComponent } from './same-route-reload/same-route-reload.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
-    HttpCallComponent
+    HttpCallComponent,
+    SameRouteReloadComponent
   ],
   imports: [
     BrowserModule,

@@ -7,12 +7,14 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {TokenInterceptor} from './token.interceptor';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
+import { HttpCallComponent } from './http-call/http-call.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    HttpCallComponent
   ],
   imports: [
     BrowserModule,

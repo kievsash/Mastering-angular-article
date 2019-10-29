@@ -22,6 +22,7 @@ For more Angular and RxJS articles check:
 [https://dev.to/oleksandr](https://dev.to/oleksandr),
 [https://medium.com/@alexanderposhtaruk](https://medium.com/@alexanderposhtaruk)
 
+
 ##BONUS
 
 [Get Free video-course on RxJS unit testing tools for Angular apps.](https://mailchi.mp/9c8299ec62c2/rxjsunittesting) 

@@ -1,27 +1,28 @@
 # MasteringAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0 as demo code for article ["Mastering Angular 8: five things that are good to know to save your time."](https://www.newline.co/@kievsash/mastering-angular-8:-five-things-that-are-good-to-know-to-save-your-time.--6302e8aa?utm_campaign=NG-Newsletter&utm_medium=email&utm_source=NG-Newsletter_315)
 
-## Development server
+## How to find perspective code?
+`git clone <url>`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`cd <project_folder>`
 
-## Code scaffolding
+Switch to specific branch:
+-  1_HTTPInterceptor_in_modules
+-  2_Query_params_on_redirect
+-  3_ng-deep_to_avoid_styles_incapsulation
+-  4_http_call_on_ngInit
+-  5_same_route_reload
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve` for a dev server. 
 
-## Build
+Navigate to `http://localhost:4200/`. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+For more Angular and RxJS articles check:
+[https://dev.to/oleksandr](https://dev.to/oleksandr),
+[https://medium.com/@alexanderposhtaruk](https://medium.com/@alexanderposhtaruk)
 
-## Running unit tests
+##BONUS
+[Get Free video-course on RxJS unit testing tools for Angular apps.](https://mailchi.mp/9c8299ec62c2/rxjsunittesting) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Follow me on [Twitter](https://twitter.com/El_Extremal)!
